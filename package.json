@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "test",
+    "watch": "node-sass -w src/resources/scss -o src/public/css"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Du",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.10.13",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
